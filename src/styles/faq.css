@@ -1,0 +1,43 @@
+.faq--container{
+    padding: 100px;
+
+}
+
+.faq{
+    margin: 100px;
+}
+
+#submitting{
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 200px;
+    color: green;
+}
+
+.faq--buttons{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.faq--buttons > button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.faq--buttons > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.faq--buttons > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+.faq--buttons > button > a:hover{
+    color: white;
+}

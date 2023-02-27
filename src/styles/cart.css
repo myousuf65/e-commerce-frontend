@@ -1,0 +1,25 @@
+.cart--singleItem{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart--singleItem >button{
+    height: 50px;
+}
+
+.cart--motherContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart--sub{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}

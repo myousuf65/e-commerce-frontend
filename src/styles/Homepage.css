@@ -1,0 +1,16 @@
+.media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.jeans--container{
+    padding: 20px;
+}
+
+.jeans--container > h2{
+    font-size: 30px;
+    padding: 10px;
+}
